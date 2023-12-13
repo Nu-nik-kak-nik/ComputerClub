@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>322</width>
+    <height>386</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="l_registration">
+      <property name="text">
+       <string>Регистрация</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QGridLayout" name="layout_names">
+      <item row="1" column="0">
+       <widget class="QLineEdit" name="le_firstname"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="le_firstname_2">
+        <property name="text">
+         <string>Имя</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="le_surname"/>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="le_surname_2">
+        <property name="text">
+         <string>Фамилия</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLineEdit" name="le_midlename"/>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="l_midlename">
+        <property name="text">
+         <string>Отчество</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QGridLayout" name="layout_email_birth">
+      <item row="0" column="1">
+       <widget class="QLabel" name="l_birth">
+        <property name="text">
+         <string>Дата рождения</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QDateEdit" name="de_birth"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLineEdit" name="le_email"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="l_email">
+        <property name="text">
+         <string>Почта</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="l_login">
+      <property name="text">
+       <string>Логин</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="le_login"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="l_password">
+      <property name="text">
+       <string>Пароль</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="layout_password">
+      <item>
+       <widget class="QLineEdit" name="le_password"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_visibility">
+        <property name="text">
+         <string>V</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="l_repeat_password">
+      <property name="text">
+       <string>Повторите пароль</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="layout_repeat_password">
+      <item>
+       <widget class="QLineEdit" name="le_repeat_password"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_visibility2">
+        <property name="text">
+         <string>V</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_registration">
+      <property name="text">
+       <string>Зарегистрироваться</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
